@@ -940,6 +940,7 @@ background: #000000c7;
   width:85vw;
   text-align: center;
   margin:auto;
+  display:table-cell;
   padding-bottom: 10px;
 }
 
