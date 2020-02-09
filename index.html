@@ -1,263 +1,398 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Parsa | Portfolio Template</title>
 
-  <title>Creative - Start Bootstrap Theme</title>
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- Font Awesome Icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
 
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-  <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.min.css" rel="stylesheet">
-  <link href="css/creative.css" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 </head>
 
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+<body>
+  <!-- preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+    </div>
+  </div>
+  <!-- /preloader -->
+
+<header class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" alt="parsa"></a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
+      aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navogation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">Homepage 1</a>
+            <a class="dropdown-item" href="homepage-2.html">Homepage 2</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="category.html">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline position-relative ml-lg-4">
+        <input class="form-control px-0 w-100" type="search" placeholder="Search">
+        <!-- <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button> -->
+        <a href="search.html" class="search-icon"><i class="ti-search text-dark"></i></a>
+      </form>
     </div>
   </nav>
+</header>
 
-  <!-- Masthead -->
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
-          <hr class="divider my-4">
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-        </div>
+<!-- featured post -->
+<section>
+  <div class="container-fluid p-sm-0">
+    <div class="row featured-post-slider">
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="images/featured-post/post-1.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">LifeStyle</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="blog-single.html">Organize Your Life With 10 Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="blog-single.html">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="images/featured-post/post-2.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">Philosophy</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="blog-single.html">Organize Your Life With 10
+                  Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="blog-single.html">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="images/featured-post/post-3.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">Fashion</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="blog-single.html">Organize Your Life With 10
+                  Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="blog-single.html">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="images/featured-post/post-4.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">Article</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="blog-single.html">Organize Your Life With 10
+                  Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="blog-single.html">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="images/featured-post/post-5.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">Nature</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="blog-single.html">Organize Your Life With 10
+                  Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="blog-single.html">read more</a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
-  </header>
+  </div>
+</section>
+<!-- /featured post -->
 
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-        </div>
+<!-- blog post -->
+<section class="section">
+  <div class="container">
+    <div class="row masonry-container">
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-1.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-2.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-3.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-4.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-5.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-6.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-7.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-8.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-9.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-10.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-11.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-13.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="images/masonary-post/post-12.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">TRAVEL</p>
+          <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <a href="blog-single.html" class="btn btn-transparent">read more</a>
+        </article>
       </div>
     </div>
-  </section>
+    <div class="row">
+      <div class="col-12">
+        <nav>
+          <ul class="pagination justify-content-center align-items-center">
+            <li class="page-item">
+              <span class="page-link">&laquo; Previous</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">01</a></li>
+            <li class="page-item active">
+              <span class="page-link">02</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">03</a></li>
+            <li class="page-item"><a class="page-link" href="#">04</a></li>
+            <li class="page-item"><a class="page-link" href="#">05</a></li>
+            <li class="page-item"><a class="page-link" href="#">06</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next &raquo;</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog post -->
 
-  <!-- Services Section -->
-  <section class="page-section" id="services">
+<!-- instagram -->
+<section>
+  <div class="container-fluid px-0">
+    <div class="row no-gutters instagram-slider" id="instafeed" data-userId="4044026246"
+      data-accessToken="4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"></div>
+  </div>
+</section>
+<!-- /instagram -->
+
+<footer class="bg-secondary">
+  <div class="section">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider my-4">
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-          </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <a href="index.html"><img src="images/logo.png" alt="persa" class="img-fluid"></a>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-          </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Address</h6>
+          <ul class="list-unstyled">
+            <li class="font-secondary text-dark">Sydney</li>
+            <li class="font-secondary text-dark">6 rip carl Avenue CA 90733</li>
+          </ul>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-          </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Contact Info</h6>
+          <ul class="list-unstyled">
+            <li class="font-secondary text-dark">Tel: +90 000 333 22</li>
+            <li class="font-secondary text-dark">Mail: exmaple@ymail.com</li>
+          </ul>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-          </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Follow</h6>
+          <ul class="list-inline d-inline-block">
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-github"></i></a></li>
+          </ul>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+  <div class="text-center pb-3">
+    <p class="mb-0">Copyright ©<script>var CurrentYear = new Date().getFullYear()
+    document.write(CurrentYear)</script> a theme by  <a href="https://themefisher.com/">themefisher.com</a></p>
+  </div>
+</footer>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- masonry -->
+<script src="plugins/masonry/masonry.js"></script>
+<!-- instafeed -->
+<script src="plugins/instafeed/instafeed.min.js"></script>
+<!-- smooth scroll -->
+<script src="plugins/smooth-scroll/smooth-scroll.js"></script>
+<!-- headroom -->
+<script src="plugins/headroom/headroom.js"></script>
+<!-- reading time -->
+<script src="plugins/reading-time/readingTime.min.js"></script>
 
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
