@@ -963,6 +963,13 @@ background: #000000d9;
 
 .maincon {
   background-image: url('https://www.schizospec.com/images/ooh.jpg');
+}
+
+.aboutcon {
+  background-image: url('https://www.schizospec.com/images/abt-bg.jpg');
+}
+
+.maincon, .aboutcon {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
