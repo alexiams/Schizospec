@@ -1,11 +1,13 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Project Name
-VERSION:	Versoin Number
+PROJECT:	Schizo Spec Site
+VERSION:	uhhhh,, 1 I guess?
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
+
+hahahahhahaha
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700");
@@ -22,6 +24,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #E7D6FF;
+  margin:0px;
+  padding:0px;
 
 }
 
@@ -880,6 +884,10 @@ blockquote {
   flex-grow: 0;
 }
 
+.card-body{
+  vertical-align: middle;
+}
+
 .card {
         margin: 0 auto; /* Added */
         float: none; /* Added */
@@ -897,6 +905,7 @@ blockquote {
   justify-content:center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin:0px;
 }
 
 .card-bot{
@@ -917,15 +926,19 @@ blockquote {
 
 }
 .low-header {
-  background:#000000c7;
+  background:#000000d9;
   margin:auto;
+  width: 85vw;
+  padding:0px;
+  display:table-cell;
+
 }
 
 .low-header, .sub-header {
   text-align: center;
   padding:10px;
   margin-bottom:0px;
-
+  margin:auto;
   max-width:85vw;
 
 }
@@ -936,7 +949,7 @@ blockquote {
 
 .sub-detail{
   border-bottom: 5px solid #000;
-background: #000000c7;
+background: #000000d9;
   width:85vw;
   text-align: center;
   margin:auto;
@@ -957,6 +970,8 @@ background: #000000c7;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;
+  max-width: 100vw;
+  position:relative;
 }
 
 .jumbotron {
@@ -964,7 +979,7 @@ background: #000000c7;
 }
 
 .filter {
-  background: #000000c7;
+  background: #000000d9;
   background-attachment: fixed;
 }
 
@@ -972,6 +987,19 @@ background: #000000c7;
   border: 5px solid #000;
   max-width: 85vw;
   margin:auto;
+}
+
+.headres {
+  width: 85vw;
+  margin:auto;
+  display:inline;
+}
+
+::selection {
+  background: #6B5CA5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #6B5CA5; /* Gecko Browsers */
 }
 
 /*# sourceMappingURL=maps/style.css.map */
