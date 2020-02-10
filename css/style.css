@@ -917,7 +917,8 @@ blockquote {
 }
 
 .card-link{
-  color:#E7D6FF;
+  color:#E7D6FF !important;
+  display:block;
 }
 
 .card-text {
@@ -969,7 +970,11 @@ background: #000000d9;
   background-image: url('https://www.schizospec.com/images/abt-bg.jpg');
 }
 
-.maincon, .aboutcon {
+.blogcon {
+  background-image: url('https://www.schizospec.com/images/blog-bg.jpg');
+}
+
+.maincon, .aboutcon, .blogcon {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
