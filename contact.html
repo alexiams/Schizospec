@@ -30,57 +30,49 @@
 </head>
 
 <body>
-  <!-- preloader -->
-  <div class="preloader">
-    <div class="loader">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- /preloader -->
 
-<header class="navigation">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" alt="parsa"></a>
-    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
-      aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- Navigation -->
+  <header class="navigation bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <!-- Navigation Title and Link -->
+      <a class="navbar-brand" href="#">Schizo Spec</a>
+    <!--Button to open/close nav-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!--Icon for button-->
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse text-center" id="navogation">
-      <ul class="navbar-nav ml-auto">
+    <!--Nav content when opened-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!--'Home' item-->
+        <li class="nav-item active">
+          <!--'Home' page link-->
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <!--'About' item-->
+        <li class="nav-item">
+          <!--'About' page link-->
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+          <!--Dropdown item-->
         <li class="nav-item dropdown">
-          <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" id="navbarDropdown"
-            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Home
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Info
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="index.html">Homepage 1</a>
-            <a class="dropdown-item" href="homepage-2.html">Homepage 2</a>
+            <a class="dropdown-item" href="#">Resources</a>
+            <a class="dropdown-item" href="#">Where to Find Us</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Tell Your Story</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="category.html">Categories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="contact.html">Contact</a>
-        </li>
       </ul>
-      <form class="form-inline position-relative ml-lg-4">
-        <input class="form-control px-0 w-100" type="search" placeholder="Search">
-        <!-- <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button> -->
-        <a href="search.html" class="search-icon"><i class="ti-search text-dark"></i></a>
-      </form>
     </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
 <section class="section">
   <div class="container">
@@ -108,34 +100,18 @@
   </div>
 </section>
 
-<!-- instagram -->
-<section>
-  <div class="container-fluid px-0">
-    <div class="row no-gutters instagram-slider" id="instafeed" data-userId="4044026246"
-      data-accessToken="4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"></div>
-  </div>
-</section>
-<!-- /instagram -->
 
-<footer class="bg-secondary">
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <a href="index.html"><img src="images/logo.png" alt="persa" class="img-fluid"></a>
-        </div>
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <h6>Address</h6>
-          <ul class="list-unstyled">
-            <li class="font-secondary text-dark">Sydney</li>
-            <li class="font-secondary text-dark">6 rip carl Avenue CA 90733</li>
-          </ul>
-        </div>
+<footer >
+  <div class="section ft-style">
+    <div class="container ft-style">
+      <div class="row text-light">
+
+
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
-            <li class="font-secondary text-dark">Tel: +90 000 333 22</li>
-            <li class="font-secondary text-dark">Mail: exmaple@ymail.com</li>
+            <li class="font-secondary">We would love to hear from you! <br></br></li>
+            <li class="font-secondary ">Email: contact@schizospec.com</li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
@@ -148,10 +124,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="text-center pb-3">
-    <p class="mb-0">Copyright ©<script>var CurrentYear = new Date().getFullYear()
-    document.write(CurrentYear)</script> a theme by  <a href="https://themefisher.com/">themefisher.com</a></p>
   </div>
 </footer>
 
