@@ -857,7 +857,7 @@ blockquote {
 
 
 .container{
-  background-color:#37393A;
+  background-color:#000000cc;
 }
 
 .jt-top, .jt-sub, .jt-bot {
@@ -1000,7 +1000,7 @@ background: #000000d9;
 }
 
 .filter {
-  background: #000000d9;
+  background: #00000066;
   background-attachment: fixed;
 }
 
