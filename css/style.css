@@ -1013,7 +1013,7 @@ background: #000000d9;
 .headres {
   width: 85vw;
   margin:auto;
-  display:inline;
+  display:block;
 }
 
 ::selection {
