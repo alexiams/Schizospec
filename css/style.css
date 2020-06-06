@@ -910,6 +910,7 @@ blockquote {
   width:100%;
   background-color: #26203e;
   padding:15px;
+  max-height:3.3em;
   text-align: center;
   border-radius:0px 0px 3px 3px;
 }
