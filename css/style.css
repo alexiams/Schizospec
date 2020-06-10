@@ -864,6 +864,12 @@ blockquote {
   color:#000000;
 }
 
+.jt-bot {
+  max-width: 70vw;
+   margin: auto;
+   margin-bottom: 3em;
+}
+
 .authorpic{
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.12); !important;
 }
