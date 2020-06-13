@@ -1062,4 +1062,15 @@ blockquote {
   display:block;
 }
 
+.mobile-link{
+  margin: auto;
+  padding: 20px;
+  display: block;
+  border: solid 3px black;
+  border-radius: 10px;
+  background: #000000b3;
+  width: 60vw;
+
+}
+
 /*# sourceMappingURL=maps/style.css.map */
