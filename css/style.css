@@ -1046,6 +1046,11 @@ blockquote {
   background-color: #000000d9;
 }
 
+.sec-link-pg {
+  padding-top:9vh 
+  max-width: 80vw;
+}
+
 .fol-ico {
   color: #907AD6;
 }
