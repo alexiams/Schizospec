@@ -1046,8 +1046,14 @@ blockquote {
   background-color: #000000d9;
 }
 
+.first-sec {
+  padding-top: 5vh;
+}
+
 .sec-link-pg {
-  padding-top:9vh; 
+  padding-top:9vh;
+  padding-bottom: 5vh;
+  margin:auto;
   max-width: 80vw;
 }
 
