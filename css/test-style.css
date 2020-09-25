@@ -1,14 +1,11 @@
 .test-jt {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100vw;
-    transform: translate(0%, -50%);
-    background-color: #050d15d6;
+    background:none;
+
 
 }
 
 .test-maincon {
   height:100vh;
   max-height:100vh;
+  background-image: url("https://www.schizospec.com/images/test-bg.jpg") !important;
 }
