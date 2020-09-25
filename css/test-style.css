@@ -15,3 +15,9 @@
   max-height: 100vh;
   background-color: #0000008f !important;
 }
+.launch-icon {
+  max-block-size:8em;
+  background-color:#dabfff2e;
+  padding-top: ($spacer * 1.5);
+  padding-bottom: ($spacer * 1.5);
+}
