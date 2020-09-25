@@ -9,3 +9,8 @@
   max-height:100vh;
   background-image: url("https://www.schizospec.com/images/test-bg.jpg") !important;
 }
+
+.test-filter {
+  height:100vh;
+  max-height: 100vh;
+}
