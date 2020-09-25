@@ -22,3 +22,8 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+.icon-link {
+  margin:3em;
+  text-decoration: none;
+}
